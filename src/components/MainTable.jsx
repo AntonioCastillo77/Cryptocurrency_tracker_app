@@ -63,7 +63,7 @@ function MainTable() {
       <SearchBar/>
     </div>
     <div className="container" id="mainTableWrapper">
-    <h1 className="title is-4" id="coinSub">Click on any coin's name to see it's information</h1>
+    <h1 className="title is-4" id="coinSub">Click on any coin's name to display it's information</h1>
     <table id="cryptoTable" className="table is-centered">
     <thead>
       <tr>
