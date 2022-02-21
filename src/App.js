@@ -17,7 +17,7 @@ function App() {
     <Header/>
     <Hero/>
     <Routes>
-      <Route path="/" element={<MainTable/>}/>
+      <Route path="/Cryptocurrency_tracker_app" element={<MainTable/>}/>
       <Route path="/coinInfo" element={<CoinDetail/>}/>
     </Routes>
     <Footer/>

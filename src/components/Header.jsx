@@ -9,13 +9,13 @@ function Header() {
   return <div>
         <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-            <a className="navbar-item" onClick={()=> navigate("/")}>
+            <a className="navbar-item" onClick={()=> navigate("/Cryptocurrency_tracker_app")}>
         <h1 className='title is-5' id='navbarTitle'>Crypto-tracker</h1>
     </a>
   </div>
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-start">
-      <a className="navbar-item" onClick={()=> navigate("/")}>
+      <a className="navbar-item" onClick={()=> navigate("/Cryptocurrency_tracker_app")}>
         Home
       </a>
     </div>
